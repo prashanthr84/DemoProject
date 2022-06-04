@@ -13,9 +13,9 @@ namespace DemoProject
 
     internal class Calculator
     {
-        public object Add(int i, int i1)
+        public int Add(int num1, int num2)
         {
-            return i + i1;
+            return num1 + num2;
         }
     }
 }
