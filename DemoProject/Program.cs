@@ -6,7 +6,16 @@ namespace DemoProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var calculator = new Calculator();
+            var result = calculator.Add(2, 3);
+        }
+    }
+
+    internal class Calculator
+    {
+        public object Add(int i, int i1)
+        {
+            return i + i1;
         }
     }
 }
