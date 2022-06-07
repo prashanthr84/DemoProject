@@ -24,5 +24,10 @@ namespace DemoProject
         {
             return num2 - num1;
         }
+
+        public int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
     }
 }
